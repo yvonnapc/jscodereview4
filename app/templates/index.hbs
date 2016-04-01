@@ -1,3 +1,7 @@
-<h1>Welcome to a blog about questions and answers</h1>
+<h1>Submitted Questions:</h1>
 
-{{#link-to 'about'}}About{{/link-to}}
+<ul>
+  {{#each model as |question|}}
+    <li>"{{question.title}}" By: {{question.author}}</li>
+  {{/each}}
+</ul>
