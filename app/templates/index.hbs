@@ -1,7 +1,8 @@
-<h1>Submitted Questions:</h1>
+
+<h3>Submitted Questions:</h3>
 
 <ul>
   {{#each model as |question|}}
-    <li>"{{question.title}}" By: {{question.author}}</li>
+    {{question-tile question=question destroyQuestion="destroyQuestion"}}
   {{/each}}
 </ul>
