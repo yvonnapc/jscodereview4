@@ -1,1 +1,6 @@
-{{outlet}}
+<h1>Here is {{model.author}} 's question: </h1>
+
+<h3>{{model.content}}</h3>
+
+{{update-question question=question updateQuestion="updateQuestion"}}
+<button {{action 'deleteQuestion' question}}>Delete</button>
