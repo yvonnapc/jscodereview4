@@ -11,12 +11,14 @@ export default Ember.Route.extend({
       newQuestion.save();
       this.transitionTo('index');
     },
-    update(question, params){
-      Object.keys(params).forEach(function(key){
-        if(params[key]!==undefined){
-          question.set(key,params[key]);
+    updateQuestion(question, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key] !== undefined) {
+          question.set(key, params[key]);
         }
       });
+      question.save();
+      this.transitionTo('question');
     },
     destroyQuestion(question){
       question.destroyRecord();
