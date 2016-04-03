@@ -4,13 +4,12 @@
 <h5>notes: {{model.notes}}</h5>
 
 
-
-
 <ul>
   {{#each model.answers as |answer|}}
   <li>{{answer.author}}</li>
   {{/each}}
 </ul>
+
 <br>
 {{update-question question=model updateQuestion="updateQuestion" destroyQuestion="destroyQuestion"}}
 <button class="btn btn-danger" {{action 'destroyQuestion' model}}>Delete</button>
