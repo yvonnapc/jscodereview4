@@ -1,4 +1,4 @@
-  { "questions": [{
+{ "questions": [{
     "title": "Portland Food",
     "author": "Alex Rivera",
     "content": "Where is the best food on Mississippi St.?",
@@ -8,5 +8,12 @@
     "author": "Yvonna Contreras",
     "content": "Is Adventure Time better than Spongebob?",
     "note": "I am 12"
-  }]
+  }],
+  "answers": [{
+    "author": "Yvonna Contreras",
+    "content": "Lovely's Fifty-Fifty"
+  }, {
+    "author": "Alex Rivera",
+    "content": "Adventure Time"
+    }]
 }
