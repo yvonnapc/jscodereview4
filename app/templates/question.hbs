@@ -1,6 +1,8 @@
-<h1>Here is {{model.author}} 's question: </h1>
+<h3>Here is {{model.author}} 's question: </h3>
 
-<h3>{{model.content}}</h3>
+<h4>{{model.content}}</h4>
+<h5>notes: {{model.notes}}</h5>
 
-{{update-question question=question updateQuestion="updateQuestion"}}
-<button {{action 'deleteQuestion' question}}>Delete</button>
+<br>
+{{update-question question=model updateQuestion="updateQuestion" destroyQuestion="destroyQuestion"}}
+<button class="btn btn-danger" {{action 'destroyQuestion' model}}>Delete</button>
