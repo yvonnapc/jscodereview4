@@ -1,53 +1,59 @@
-# Question-blog
+# _Question & Answer App_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### An interactive blog for posting and answering questions  | April 1, 2016
+
+#### By: Yvonna Contreras
+
+## Description
+
+JavaScript Ember JS Code Review: Q & A App. This application serves as a platform for the user to fill a form and submit a question, post that question, and reply to other questions.
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
-
+You will need the following things properly installed on your computer:
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
+* [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Setup/Installation Requirements
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+1. Open Terminal and clone into this repository: https://github.com/yvonnapc/jscodereview3.git
+2. Within the home directory, run:<br>
+       ```$ brew install node ```<br>
+       ```$ npm install ```<br>
+       ```$ bower install ```<br>
+       ```$ npm install -g bower ```<br>
+       ```$ brew install watchman ```<br>
+       ```$ npm install -g ember-cli ```<br>
+       ```$ ember install ember-bootstrap ```<br>
+       ```$ ember install emberfire ```<br>
+       ```$ ember s ```<br>
+3. Your browser will automatically navigate to the app at: http://localhost:4200
 
-## Running / Development
+## Known Bugs
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+N/A
 
-### Code Generators
+## Support and Contact Details
 
-Make use of the many generators for code, try `ember help generate` for more details
+If you have any issues, questions, ideas, or concerns contact us through GitHub. If you would like to make a contribution to the code, feel free to do so and notify me by e-mail.
 
-### Running Tests
+## Technologies Used
 
-* `ember test`
-* `ember test --server`
+* Typescript
+* Ember
+* JavaScript
+* Component
+* Bootstrap
+* GIT
+* NPM
+* Node
+* Bower
+* Gulp
+* SCSS
 
-### Building
+## License
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016  |  Yvonna Contreras  |  Epicodus  |  Portland, OR
