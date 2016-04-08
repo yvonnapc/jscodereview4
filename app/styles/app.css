@@ -3,13 +3,20 @@
   background-color: lightgrey;
 }
 
+.underline {
+  text-decoration: underline;
+}
+/*img {
+  max-width: 500px;
+  max-height: 500px;
+  position: center;
+}*/
 .background {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  background-position: center;
   background-attachment: fixed;
-  background-image: url('/assets/img/jhowell.jpg');
+  background-image: url('/assets/img/fargo.jpg');
   background-repeat: no-repeat;
 }
 .page-footer {
@@ -24,4 +31,9 @@
 
 .breadcrumb{
   background-color: lightgrey;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
 }
