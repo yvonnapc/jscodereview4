@@ -1,11 +1,17 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  bookMarked: Ember.inject.service(),
   model(params){
     return this.store.findRecord('question', params.question_id);
   },
 
   actions: {
+    addToBookmarks(item){
+      this.get('bookMarked').add(item);
+      alert('Item Bookmarked');
+      this.transitionTo('forum');
+    },
     updateQuestion(question, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key] !== undefined) {

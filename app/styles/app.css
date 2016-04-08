@@ -1,7 +1,17 @@
 .page-header {
   text-align: center;
+  background-color: lightgrey;
 }
 
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('/assets/img/jhowell.jpg');
+  background-repeat: no-repeat;
+}
 .page-footer {
   position: fixed;
   text-align: center;
@@ -13,5 +23,5 @@
 }
 
 .breadcrumb{
-  background-color: white;
+  background-color: lightgrey;
 }
