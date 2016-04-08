@@ -12,6 +12,7 @@ export default Ember.Route.extend({
       alert('Item Bookmarked');
       this.transitionTo('forum');
     },
+    
     updateQuestion(question, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key] !== undefined) {

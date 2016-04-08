@@ -1,3 +1,4 @@
 {{#each bookMarked.items as |question|}}
   <li>{{question.title}}</li>
+  <button class="btn btn-warning" {{action "remove" question}}>Remove Bookmark</button>
 {{/each}}
