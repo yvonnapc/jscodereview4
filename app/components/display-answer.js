@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  fullName: Ember.computed('answer.firstName' , 'answer.lastName', function(){
-    return this.get('answer.firstName') + this.get('answer.lastName');
+  fullQuestion: Ember.computed('question.title' , 'question.author', function(){
+    return this.get('question.title') + ' By: ' + this.get('question.author');
   })
 });

@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-lg-6">
-    <h3 class="underline">Here is {{model.author}} 's question: </h3>
+    <h3 class="underline"> {{display-answer question=model}}</h3>
 
     <h4>Question: {{model.content}}</h4>
     <h4>Asked on: {{model.date}}</h4>
@@ -11,7 +11,7 @@
     <h3 class="underline">Replies to this question:</h3>
     <ul>
       {{#each model.answers as |answer|}}
-      <li>{{display-answer answer=model}} 's reply was: "{{answer.content}}"</li>
+      <li>{{answer.firstName}} 's reply was: "{{answer.content}}"</li>
       {{/each}}
     </ul>
   </div>
