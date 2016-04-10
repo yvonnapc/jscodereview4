@@ -6,19 +6,21 @@
 .underline {
   text-decoration: underline;
 }
+
+.sample {
+  width: 600px;
+}
+
+.index {
+  margin-left: 19%;
+  width: 700px;
+}
 /*img {
   max-width: 500px;
   max-height: 500px;
   position: center;
 }*/
-.background {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background-attachment: fixed;
-  background-image: url('/assets/img/fargo.jpg');
-  background-repeat: no-repeat;
-}
+
 .page-footer {
   position: fixed;
   text-align: center;
@@ -33,7 +35,7 @@
   background-color: lightgrey;
 }
 
-h1 {
+h1, h2 {
   font-weight: normal;
   text-align: center;
 }
