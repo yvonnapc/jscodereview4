@@ -18,8 +18,10 @@
 </div>
 
 <br>
+{{new-answer question=model answer=answer saveAnswer2="saveAnswer3"}}
+<h4>Other Options:</h4>
 {{update-question question=model updateQuestion="updateQuestion" destroyQuestion="destroyQuestion"}}
 <button class="btn btn-danger" {{action 'destroyQuestion' model}}>Delete</button>
-
+<br>
 <button class="btn btn-success" {{action 'addToBookmarks' model}}>Bookmark</button>
-{{new-answer question=model answer=answer saveAnswer2="saveAnswer3"}}
+<br>

@@ -1,4 +1,4 @@
-# _Question & Answer App_
+# _Question & Answer App 2.0_
 
 #### An interactive blog for posting and answering questions  | April 1, 2016
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-JavaScript Ember JS Code Review: Q & A App. This application serves as a platform for the user to fill a form and submit a question, post that question, and reply to other questions.
+JavaScript Ember JS Code Review: Q & A 2.0 App. This application serves as a platform for the user to fill a form and submit a question, post that question, and reply to other questions.
 
 ## Prerequisites
 
@@ -23,11 +23,8 @@ You will need the following things properly installed on your computer:
 2. Within the home directory, run:<br>
        ```$ brew install node ```<br>
        ```$ npm install ```<br>
-       ```$ bower install ```<br>
        ```$ npm install -g bower ```<br>
-       ```$ brew install watchman ```<br>
-       ```$ npm install -g ember-cli ```<br>
-       ```$ ember install ember-bootstrap ```<br>
+       ```$ bower install ```<br>
        ```$ ember install emberfire ```<br>
        ```$ ember s ```<br>
 3. Your browser will automatically navigate to the app at: http://localhost:4200
