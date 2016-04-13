@@ -26,6 +26,7 @@ You will need the following things properly installed on your computer:
        ```$ npm install -g bower ```<br>
        ```$ bower install ```<br>
        ```$ ember install emberfire ```<br>
+       ```$ ember install liquid-fire ```<br>
        ```$ ember s ```<br>
 3. Your browser will automatically navigate to the app at: http://localhost:4200
 
